@@ -19,12 +19,12 @@ Es preferible por sobre las promesas porque hace que nuestro código se comporte
 
 # Ventajas y desventajas
 
-* CALLBACKS: ventaja: Simple(una función que recibe otra función)
-            deventaja: Composición tediosa, anidando cada vez más elementos, prolemas al llegar al CALLBACK HELL
+* CALLBACKS: * ventaja: Simple(una función que recibe otra función)
+             * desventaja: Composición tediosa, anidando cada vez más elementos, prolemas al llegar al CALLBACK HELL
 
-* PROMESAS: ventaja: Facilmente enlazables .then(return..).then
-                     Facil e intuitivo de leer
-            deventaja: Posible error si no se retorna el siguiente llamado. No corre en todos los navegadores
+* PROMESAS: * ventaja: Facilmente enlazables .then(return..).then
+                       Facil e intuitivo de leer
+            * desventaja: Posible error si no se retorna el siguiente llamado. No corre en todos los navegadores
 
-* ASYNC-AWAIT: ventaja: Se puede usar try - catch
-               desventaja: No corre en todos los navegadores (requiere transpilador)
+* ASYNC-AWAIT: * ventaja: Se puede usar try - catch
+               * desventaja: No corre en todos los navegadores (requiere transpilador)
