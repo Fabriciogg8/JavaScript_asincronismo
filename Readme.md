@@ -20,8 +20,8 @@ Es preferible por sobre las promesas porque hace que nuestro código se comporte
 # Ventajas y desventajas
 
 * CALLBACKS: 
-* * ventaja: Simple(una función que recibe otra función)
-* * desventaja: Composición tediosa, anidando cada vez más elementos, prolemas al llegar al CALLBACK HELL
+** ventaja: Simple(una función que recibe otra función)
+** desventaja: Composición tediosa, anidando cada vez más elementos, prolemas al llegar al CALLBACK HELL
 
 * PROMESAS: * ventaja: Facilmente enlazables .then(return..).then
                        Facil e intuitivo de leer
